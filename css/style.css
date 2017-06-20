@@ -13,12 +13,10 @@
     src: url("../fonts/ArticulatMedium.eot");
     src: url("../fonts/ArticulatMedium.woff?#iefix") format("embedded-opentype"), url("../fonts/ArticulatMedium.woff2") format("truetype");
 }
-
 @font-face {
     font-family: "OvoRegular";
     src: url("../fonts/OvoRegular.ttf");
 }
-
 * {
     margin: 0;
     padding: 0;
@@ -36,7 +34,7 @@ body {
     max-width: 1366px;
     margin: 0 auto;
     position: relative;
-/*    border: 1px solid gray;*/
+    /*    border: 1px solid gray;*/
 }
 .container-nav {
     max-width: 1366px;
@@ -87,11 +85,13 @@ header .icons {
 header img.tel {
     height: 1.5em;
     margin-right: 1.68em;
+    cursor: pointer;
 }
 header img.email {
     height: 1.4em;
     margin-top: 0px;
     margin-right: 1.68em;
+    cursor: pointer;
 }
 h1 {
     font-family: "ArticulatExtraBold";
@@ -102,6 +102,7 @@ h2 {
 }
 
 /************************* HERO ***************************/
+
 .hero {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -146,6 +147,7 @@ p.hero-text__btn {
 }
 
 /************************* WELCOME *************************/
+
 div.welcome {
     color: #ffffff;
     background: #424e6b;
@@ -155,9 +157,9 @@ div.welcome {
     position: relative;
     margin-left: 380px;
     margin-top: 130px;
-    -webkit-box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.19);
-    -moz-box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.19);
-    box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 7px 7px 5px -5px rgba(0, 0, 0, 0.47);
+    -moz-box-shadow: 7px 7px 5px -5px rgba(0, 0, 0, 0.47);
+    box-shadow: 7px 7px 5px -5px rgba(0, 0, 0, 0.47);
 }
 div.welcome:first-child {
     font-family: "ArticulatMedium";
@@ -184,75 +186,60 @@ div.welcome p:last-child {
 
 /*************************SERVICES ***************************/
 
-.services{
+.services {
     margin-top: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-
 .services-number {
     font-family: "OvoRegular";
     font-size: 4.5em;
     color: #f2f2f3;
 }
-
 .services-text {
     position: absolute;
     bottom: 25px;
     left: 10px;
     font-size: 1.5em;
 }
-
 .services div {
-
     flex: 1;
     max-width: 350px;
     height: 350px;
     margin: 30px;
     position: relative;
 }
-
-.services-left {
-
-}
-
+.services-left {}
 .services-left img {
     height: 150px;
     display: block;
     position: absolute;
     top: 24px;
     left: 50%;
-    transform: translate(-50%,0);
+    transform: translate(-50%, 0);
 }
-
-.services-mid {
-
-}
-
+.services-mid {}
 .services-mid img {
     height: 150px;
     display: block;
     position: absolute;
     top: 30px;
     left: 50%;
-    transform: translate(-50%,0);
+    transform: translate(-50%, 0);
 }
-
-.services-right {
-
-}
-
+.services-right {}
 .services-right img {
     height: 150px;
     display: block;
     position: absolute;
     top: 25px;
     left: 50%;
-    transform: translate(-50%,0);
+    transform: translate(-50%, 0);
 }
 
 /************************* WORK WITH US ***************************/
+
 div.work-with-us {
     color: #ffffff;
     background: #424e6b;
@@ -262,9 +249,9 @@ div.work-with-us {
     position: relative;
     margin-left: 50px;
     margin-top: 100px;
-    -webkit-box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.19);
-    -moz-box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.19);
-    box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 7px 7px 5px -5px rgba(0, 0, 0, 0.47);
+    -moz-box-shadow: 7px 7px 5px -5px rgba(0, 0, 0, 0.47);
+    box-shadow: 7px 7px 5px -5px rgba(0, 0, 0, 0.47);
 }
 div.work-with-us:first-child {
     font-family: "ArticulatMedium";
@@ -297,27 +284,40 @@ div.work-with-us p:last-child {
     justify-content: space-around;
     align-items:
 }
-
 .property-search div {
-    flex:1;
+    flex: 1;
 }
-
 .property-search p {
     margin-bottom: 10px;
 }
-
 .properties-search select {
     font-family: "Ovo";
     color: gray;
     font-size: 1em;
     padding: 7.5px 15px;
     margin-top: 10px;
-
     width: 250px;
     border: 1px solid #424e6b;
 }
-
 .properties-search select option {
     margin: 5px 10px;
-        font-size: 1em;
+    font-size: 1em;
 }
+
+/************************* PROPERTIES CAROUSEL ***************************/
+
+.properties-carousel img {
+    display: inline-block;
+    max-width: 290px;
+}
+
+
+
+
+
+
+
+/*
+-webkit-box-shadow: 4px 4px 22px 0px rgba(0,0,0,0.3);
+-moz-box-shadow: 4px 4px 22px 0px rgba(0,0,0,0.3);
+box-shadow: 4px 4px 22px 0px rgba(0,0,0,0.3);*/
