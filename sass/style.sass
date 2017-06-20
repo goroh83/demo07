@@ -1,24 +1,48 @@
 $navy: #424e6b
-
-@font-face
-    font-family: 'ArticulatLight'
-    src: url('../fonts/ArticulatLight.eot')
-    src: url('../fonts/ArticulatLight?#iefix') format('embedded-opentype'),    url('../fonts/ArticulatLight.woff2') format('truetype')
-
-@font-face
-    font-family: 'ArticulatExtraBold'
-    src: url('../fonts/ArticulatExtraBold.eot')
-    src: url('../fonts/ArticulatExtraBold.woff?#iefix') format('embedded-opentype'),    url('../fonts/ArticulatExtraBold.woff2') format('truetype')
-
-@font-face
-    font-family: 'ArticulatMedium'
-    src: url('../fonts/ArticulatMedium.eot')
-    src: url('../fonts/ArticulatMedium.woff?#iefix') format('embedded-opentype'),    url('../fonts/ArticulatMedium.woff2') format('truetype')
+@import 'fonts.sass'
 
 body
     font-family: 'ArticulatLight'
+    font-size: 62,5%
     color: $navy
     background: #ffffff
+
+header
+    height: 100px
+    width: 100%
+    border-bottom: 1px solid gray
+    position: relative
+    p.logo
+        font-family: 'ArticulatExtraBold'
+        font-size: 1.87em
+        display: inline-block
+        margin-left: 30px
+    nav ul
+        display: inline
+        position: absolute
+        top: 25px
+        right: 130px
+    nav ul li
+        list-style-type: none
+        display: inline-block
+        text-transform: uppercase
+        padding-bottom: 5px
+        margin-right: 1.68em
+    nav ul li a
+        font-size: 1.12em
+        color: $navy
+        text-decoration: none
+    .icons
+        position: absolute
+        top: 35px
+        right: 30px
+    img.tel
+        height: 1.30em
+        margin-right: 1.68em
+    img.email
+        height: 1.70em
+        margin-top: 0px
+        margin-right: 1.68em
 
 h1
     font-family: 'ArticulatExtraBold'

@@ -1,24 +1,187 @@
 @font-face {
-  font-family: "ArticulatLight";
-  src: url("../fonts/ArticulatLight.eot");
-  src: url("../fonts/ArticulatLight?#iefix") format("embedded-opentype"), url("../fonts/ArticulatLight.woff2") format("truetype"); }
+    font-family: "ArticulatLight";
+    src: url("../fonts/ArticulatLight.eot");
+    src: url("../fonts/ArticulatLight?#iefix") format("embedded-opentype"), url("../fonts/ArticulatLight.woff2") format("truetype");
+}
 @font-face {
-  font-family: "ArticulatExtraBold";
-  src: url("../fonts/ArticulatExtraBold.eot");
-  src: url("../fonts/ArticulatExtraBold.woff?#iefix") format("embedded-opentype"), url("../fonts/ArticulatExtraBold.woff2") format("truetype"); }
+    font-family: "ArticulatExtraBold";
+    src: url("../fonts/ArticulatExtraBold.eot");
+    src: url("../fonts/ArticulatExtraBold.woff?#iefix") format("embedded-opentype"), url("../fonts/ArticulatExtraBold.woff2") format("truetype");
+}
 @font-face {
-  font-family: "ArticulatMedium";
-  src: url("../fonts/ArticulatMedium.eot");
-  src: url("../fonts/ArticulatMedium.woff?#iefix") format("embedded-opentype"), url("../fonts/ArticulatMedium.woff2") format("truetype"); }
+    font-family: "ArticulatMedium";
+    src: url("../fonts/ArticulatMedium.eot");
+    src: url("../fonts/ArticulatMedium.woff?#iefix") format("embedded-opentype"), url("../fonts/ArticulatMedium.woff2") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
-  font-family: "ArticulatLight";
-  color: #424e6b;
-  background: #ffffff; }
+    font-family: "ArticulatLight";
+    font-size: 62, 5%;
+    color: #424e6b;
+    background: #ffffff;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    max-width: 1366px;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid gray;
+}
+
+.container-nav {
+    max-width: 1366px;
+    margin: 0 auto;
+    height: 100px;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    box-shadow: 0px 6px 25px -6px rgba(0, 0, 0, 0.51);
+}
+header p.logo {
+    font-family: "ArticulatExtraBold";
+    font-size: 1.87em;
+    display: inline-block;
+    margin-left: 30px;
+}
+header nav ul {
+    display: inline;
+    position: absolute;
+    top: 42px;
+    right: 150px;
+}
+header nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    margin-right: 1.68em;
+}
+header nav ul li a {
+    font-size: 1.12em;
+    color: #424e6b;
+    text-decoration: none;
+}
+header .icons {
+    position: absolute;
+    top: 39px;
+    right: 30px;
+}
+header img.tel {
+    height: 1.5em;
+    margin-right: 1.68em;
+}
+header img.email {
+    height: 1.4em;
+    margin-top: 0px;
+    margin-right: 1.68em;
+}
 
 h1 {
-  font-family: "ArticulatExtraBold"; }
+    font-family: "ArticulatExtraBold";
+}
 
 h2 {
-  font-family: "ArticulatMedium"; }
+    "ArticulatMedium";
+    font-size: 2.25em;
+}
 
-/*# sourceMappingURL=style.css.map */
+.hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 70px 0;
+    position: relative;
+}
+
+.hero-text {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    text-align: center;
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto auto;
+}
+
+
+.hero-text:first-child{
+    display: block;
+}
+
+.hero-text span {
+    color: #f7b14b;
+}
+
+p.hero-text__btn {
+    display: inline-block;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: 1px solid #424e6b;
+}
+
+.hero img {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    margin-right: 0;
+    min-width: 50%;
+    height: auto;
+}
+
+div.welcome {
+    color: #ffffff;
+    background: #424e6b;
+    max-width:747px;
+    max-height: 345px;
+    padding: 30px;
+}
+
+div.welcome:first-child {
+    font-family: "ArticulatMedium";
+}
+
+
+div.welcome p{
+    text-align: left;
+    font-size: 1.5em;
+    margin: 20px auto;
+}
+
+div.welcome :last-child  {
+    font-size: 14px;
+    display: inline-block;
+    display: inline-block;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: 1px solid #ffffff;
+    text-transform: uppercase;
+    float: right;
+}
+
+
+
+
+
