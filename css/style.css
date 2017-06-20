@@ -182,7 +182,6 @@ div.welcome p:last-child {
     right: 2.5em;
 }
 
-
 /*************************SERVICES ***************************/
 
 .services{
@@ -253,8 +252,6 @@ div.welcome p:last-child {
     transform: translate(-50%,0);
 }
 
-
-
 /************************* WORK WITH US ***************************/
 div.work-with-us {
     color: #ffffff;
@@ -290,4 +287,37 @@ div.work-with-us p:last-child {
     position: absolute;
     bottom: 2em;
     right: 2.5em;
+}
+
+/************************* PROPERTIES SEARCH ***************************/
+
+.properties-search {
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items:
+}
+
+.property-search div {
+    flex:1;
+}
+
+.property-search p {
+    margin-bottom: 10px;
+}
+
+.properties-search select {
+    font-family: "Ovo";
+    color: gray;
+    font-size: 1em;
+    padding: 7.5px 15px;
+    margin-top: 10px;
+
+    width: 250px;
+    border: 1px solid #424e6b;
+}
+
+.properties-search select option {
+    margin: 5px 10px;
+        font-size: 1em;
 }
