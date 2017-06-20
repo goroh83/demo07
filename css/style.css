@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "ArticulatLight";
+  src: url("ArticulatLight.eot");
+  src: url("ArticulatLight.eot?#iefix") format("embedded-opentype"), url("../fonts/ArticulatLight.woff") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+body {
+  font-family: "ArticulatLight";
+  color: #424e6b;
+  background: #ffffff; }
+
+/*# sourceMappingURL=style.css.map */
