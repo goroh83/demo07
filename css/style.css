@@ -14,6 +14,11 @@
     src: url("../fonts/ArticulatMedium.woff?#iefix") format("embedded-opentype"), url("../fonts/ArticulatMedium.woff2") format("truetype");
 }
 
+@font-face {
+    font-family: "OvoRegular";
+    src: url("../fonts/OvoRegular.ttf");
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -25,17 +30,14 @@ body {
     background: #ffffff;
     margin: 0 auto;
     box-sizing: border-box;
+    letter-spacing: 1px
 }
-
-
-
 .container {
     max-width: 1366px;
     margin: 0 auto;
     position: relative;
     border: 1px solid gray;
 }
-
 .container-nav {
     max-width: 1366px;
     margin: 0 auto;
@@ -48,7 +50,6 @@ body {
     -ms-flex-align: center;
     align-items: center;
 }
-
 header {
     height: 100px;
     width: 100%;
@@ -92,16 +93,15 @@ header img.email {
     margin-top: 0px;
     margin-right: 1.68em;
 }
-
 h1 {
     font-family: "ArticulatExtraBold";
 }
-
 h2 {
     "ArticulatMedium";
     font-size: 2.25em;
 }
 
+/************************* HERO ***************************/
 .hero {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -111,7 +111,6 @@ h2 {
     margin: 70px 0;
     position: relative;
 }
-
 .hero-text {
     -webkit-box-flex: 1;
     -ms-flex: 1;
@@ -125,23 +124,18 @@ h2 {
     display: flex;
     margin: auto auto;
 }
-
-
-.hero-text:first-child{
+.hero-text:first-child {
     display: block;
 }
-
 .hero-text span {
     color: #f7b14b;
 }
-
 p.hero-text__btn {
     display: inline-block;
     font-size: 14px;
     padding: 5px 10px;
     border: 1px solid #424e6b;
 }
-
 .hero img {
     -webkit-box-flex: 1;
     -ms-flex: 1;
@@ -151,37 +145,110 @@ p.hero-text__btn {
     height: auto;
 }
 
+/************************* WELCOME *************************/
 div.welcome {
     color: #ffffff;
     background: #424e6b;
-    max-width:747px;
-    max-height: 345px;
-    padding: 30px;
+    width: 750px;
+    height: 325px;
+    padding: 31px;
+    position: relative;
+    margin-left: 380px;
+    margin-top: 100px;
+    -webkit-box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.19);
+    box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.19);
 }
-
 div.welcome:first-child {
     font-family: "ArticulatMedium";
 }
-
-
-div.welcome p{
+div.welcome p {
     text-align: left;
     font-size: 1.5em;
-    margin: 20px auto;
+    margin-top: 25px;
+    margin-bottom: 7.5px;
 }
-
-div.welcome :last-child  {
+div.welcome p:last-child {
     font-size: 14px;
-    display: inline-block;
-    display: inline-block;
+    display: inline;
     font-size: 14px;
+    margin-top: 10px;
     padding: 5px 10px;
     border: 1px solid #ffffff;
     text-transform: uppercase;
-    float: right;
+    margin-right: 0px;
+    position: absolute;
+    bottom: 2.5em;
+    right: 2.5em;
 }
 
 
+/*************************SERVICES ***************************/
 
+.services{
+    margin-top: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
+.services-number {
+    font-family: "OvoRegular";
+    font-size: 4.5em;
+    color: #f2f2f3;
+}
 
+.services-text {
+    position: absolute;
+    bottom: 25px;
+    left: 10px;
+    font-size: 1.5em;
+}
+
+.services div {
+    border: 1px solid black;
+    flex: 1;
+    max-width: 350px;
+    height: 350px;
+    margin: 30px;
+    position: relative;
+}
+
+.services-left {
+
+}
+
+.services-left img {
+    height: 150px;
+    display: block;
+    position: absolute;
+    top: 24px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.services-mid {
+
+}
+
+.services-mid img {
+    height: 150px;
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.services-right {
+
+}
+
+.services-right img {
+    height: 150px;
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
