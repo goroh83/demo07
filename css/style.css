@@ -306,11 +306,26 @@ div.work-with-us p:last-child {
 
 /************************* PROPERTIES CAROUSEL ***************************/
 
+.owl-nav {
+    display: none;
+}
+
 .properties-carousel img {
     display: inline-block;
     max-width: 290px;
 }
 
+p.properties-btn {
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: 1px solid #424e6b;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+}
 
 
 
