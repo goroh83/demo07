@@ -151,7 +151,7 @@ p.hero-text__btn {
 div.welcome {
     color: #ffffff;
     background: #424e6b;
-    width: 750px;
+    max-width: 750px;
     height: 280px;
     padding: 31px;
     position: relative;
@@ -243,7 +243,7 @@ div.welcome p:last-child {
 div.work-with-us {
     color: #ffffff;
     background: #424e6b;
-    width: 750px;
+    max-width: 750px;
     height: 280px;
     padding: 31px;
     position: relative;
@@ -327,6 +327,29 @@ p.properties-btn {
     transform: translate(-50%, 0);
 }
 
+/************************* BUY SELL COLUMNS ***************************/
+
+.buy-sell {
+    display: flex;
+    font-size:1.45em;
+}
+
+.buy-sell-column {
+    position: relative;
+}
+
+.buy, .sell {
+    font-family: 'OvoRegular', serif;
+    font-size: 3.5em;
+    color: #f2f2f3;
+    position: absolute;
+    top: 0;
+    left: 0.25em;
+}
+
+.buy-sell-text {
+    padding-left: 200px;
+}
 
 
 
