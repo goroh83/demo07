@@ -59,7 +59,7 @@ h2{
 header {
     height: 100px;
     width: 100%;
-    box-shadow: 0px 6px 25px -6px rgba(0, 0, 0, 0.51);
+    box-shadow: 0px 6px 25px -6px rgba(0, 0, 0, 0.28);
 }
 header p.logo {
     font-family: "ArticulatExtraBold";
@@ -148,7 +148,7 @@ h2 {
 p.hero-text__btn {
     display: inline-block;
     font-size: 14px;
-    padding: 5px 10px;
+    padding: 7.5px 15px;
     border: 1px solid #424e6b;
 }
 .hero img {
@@ -195,7 +195,7 @@ div.welcome>div {
 }
 
 div.welcome>div p {
-    padding: 5px 10px;
+    padding: 7.5px 15px;
     border: 1px solid #ffffff;
     text-transform: uppercase;
     display: inline;
@@ -267,7 +267,7 @@ div.work-with-us {
     padding: 40px;
     position: relative;
     margin-left: 100px;
-    margin-top: 130px;
+    margin-top: 80px;
     margin-right: 200px;
     -webkit-box-shadow: 7px 7px 5px -5px rgba(0, 0, 0, 0.47);
     -moz-box-shadow: 7px 7px 5px -5px rgba(0, 0, 0, 0.47);
@@ -292,7 +292,7 @@ div.work-with-us>div {
 }
 
 div.work-with-us>div p {
-    padding: 5px 10px;
+    padding: 7.5px 15px;
     border: 1px solid #ffffff;
     text-transform: uppercase;
     display: inline;
@@ -302,7 +302,9 @@ div.work-with-us>div p {
 /************************* PROPERTIES SEARCH ***************************/
 
 .properties-search {
-    margin: 100px auto;
+    margin-top: 130px;
+    margin-bottom: 75px;
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
     font-size: 1.8em;
@@ -323,7 +325,6 @@ div.work-with-us>div p {
 }
 .properties-search select option {
     margin: 5px 10px;
-    font-size: 1em;
 }
 
 /************************* PROPERTIES CAROUSEL ***************************/
@@ -340,10 +341,11 @@ div.work-with-us>div p {
 p.properties-btn {
     display: inline-block;
     text-align: center;
-    font-size: 14px;
-    padding: 5px 10px;
+    font-size: 1.8em;
+    padding: 7.5px 15px;
     border: 1px solid #424e6b;
-    margin-top: 75px;
+    text-transform: uppercase;
+    margin-top: 100px;
     margin-bottom: 50px;
     margin-left: 50%;
     transform: translate(-50%, 0);
@@ -364,15 +366,16 @@ p.properties-btn {
 
 .buy, .sell {
     font-family: 'OvoRegular', serif;
-    font-size: 3.5em;
+    font-size: 7em;
     color: #f2f2f3;
     position: absolute;
-    top: 0;
-    left: 0.25em;
+    top: -10px;
+    left: 0.45em;
 }
 
 .buy-sell-text {
-    padding-left: 200px;
+    padding-left: 240px;
+    font-size: 1.8em;
 }
 
 /************************* CONSULTATION ***************************/
@@ -383,15 +386,61 @@ p.properties-btn {
     padding: 40px;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 125px;
 }
 
 .consultation-text {
-    max-width: 70%;
-    font-size: 1.125em
+    max-width: 60%;
+    font-size: 2.4em;
+    font-weight: bold;
+}
+
+.consultation-text h3 {
+    margin-bottom: 20px;
+}
+
+.consultation-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.consultation-btn p {
+    font-size: 2.2em;
+    padding: 7.5px 15px;
+    border: 1px solid #ffffff;
+    text-transform: uppercase;
+}
+
+/************************* TESTIMONIALS ***************************/
+
+.testimonials {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.testimonial_column {
+    flex: 1;
+    height: 350px;
+    position: relative;
+    font-size: 1.8em;
+    margin: auto 40px;
+    border: solid 1px black;
+}
+
+.testimonial_column blockquote {
+    color: #697081;
 }
 
 
-
+.testimonial_column figure img {
+    border-radius: 50%;
+    height: 75px;
+    position: absolute;
+    bottom: 2em;
+    right: 2em;
+}
 
 
 /*
